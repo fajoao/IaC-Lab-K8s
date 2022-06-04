@@ -63,8 +63,8 @@ const virtualMachine = new azure_native.compute.VirtualMachine(name, {
         }],
     },
     osProfile: {
-        adminPassword: "K8sLab@1983",
-        adminUsername: "fabiosilva",
+        adminPassword: "SenhaDasVMs",
+        adminUsername: "SeuUsuário",
         computerName: name,
         linuxConfiguration: {
             patchSettings: {
@@ -133,8 +133,8 @@ for (var i = 1; i <= 3; i++) {
             }],
         },
         osProfile: {
-            adminPassword: "K8sLab@1983",
-            adminUsername: "fabiosilva",
+            adminPassword: "SenhaDasVMs",
+            adminUsername: "SeuUsuário",
             computerName: name,
             linuxConfiguration: {
                 patchSettings: {
@@ -203,8 +203,8 @@ for (var i = 1; i <= 3; i++) {
                 }],
             },
             osProfile: {
-                adminPassword: "K8sLab@1983",
-                adminUsername: "fabiosilva",
+                adminPassword: "SenhaDasVMs",
+                adminUsername: "SeuUsuário",
                 computerName: name,
                 linuxConfiguration: {
                     patchSettings: {
