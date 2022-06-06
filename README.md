@@ -1,4 +1,4 @@
-**** Iac para criação de VMs no Azure via Pulumi ****
+*** Iac para criação de VMs no Azure via Pulumi ***
 
 O código está escrito em Java Script.
 
